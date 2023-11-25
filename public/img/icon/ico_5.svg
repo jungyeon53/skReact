@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <g id="그룹_116783" data-name="그룹 116783" transform="translate(-12.912 19)">
+    <g id="타원_6307" data-name="타원 6307" transform="translate(12.912 -19)" fill="#f5f5f5" stroke="#e4e4e4" stroke-width="1">
+      <circle cx="60" cy="60" r="60" stroke="none"/>
+      <circle cx="60" cy="60" r="59.5" fill="none"/>
+    </g>
+    <g id="_아이콘" data-name="+ 아이콘" transform="translate(37.912)">
+      <rect id="area" width="72" height="72" transform="translate(-1 5)" fill="red" opacity="0"/>
+      <g id="_아이콘-2" data-name="+ 아이콘" transform="translate(14.769 19.8)">
+        <path id="패스_61390" data-name="패스 61390" d="M36.338,39.773h0L39.1,36.1a3.866,3.866,0,0,0-.786-5.428l-5.051-3.745a3.865,3.865,0,0,0-5.5.923,3.764,3.764,0,0,1-5.037,1.12A31.629,31.629,0,0,1,17.489,24.7a31.649,31.649,0,0,1-4.267-5.244,3.766,3.766,0,0,1,1.12-5.036,3.867,3.867,0,0,0,.925-5.5l-.859-1.158L11.52,3.878a3.864,3.864,0,0,0-5.428-.786L2.417,5.854l-.491.489S.266,7.785.7,11.811c.321,3.161,2.888,9.062,11.753,17.926C26.124,43.406,32.747,42.1,35.4,40.635a1.674,1.674,0,0,0,.444-.375Z" transform="translate(-0.628 1.099)" fill="none" stroke="#1e1c19" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+        <path id="패스_61391" data-name="패스 61391" d="M30.851,17.64A17.018,17.018,0,0,0,13.787.575" transform="translate(10.104 -0.575)" fill="none" stroke="#3617ce" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="패스_61392" data-name="패스 61392" d="M22.327,13.092a8.548,8.548,0,0,0-2.562-6.06,8.25,8.25,0,0,0-5.97-2.472" transform="translate(10.096 3.973)" fill="none" stroke="#3617ce" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+</svg>
