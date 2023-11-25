@@ -1,11 +1,14 @@
-import React, { useRef, useState } from 'react';
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
-
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import CustomItems from './CustomItems.jsx';
+
 
 // import required modules
 import { Pagination, Navigation } from 'swiper/modules';
@@ -13,14 +16,10 @@ import { Container } from 'react-bootstrap';
 
 export default function App() {
   const [swiperRef, setSwiperRef] = useState(null);
-
-  let appendNumber = 4;
-  let prependNumber = 1;
-
   return (
     <div className="bigsection">
         <Container>
-        <h2>추천상품</h2>
+        <h2 className='text-best'>추천상품</h2>
         <div className='back'>
           <Swiper
             onSwiper={setSwiperRef}
@@ -35,14 +34,32 @@ export default function App() {
             className='p-swiper'
           >
           
-                <SwiperSlide className="mySwiper">
-                    <p>500M 인터넷 <br />
-                    + B tv all</p>
-                    <img src="../img/products/ico_recom_prod_01.svg" alt="" />
+                <SwiperSlide className="mySwiper d-flex">
+                  <CustomItems />
                 </SwiperSlide>
-                <SwiperSlide className="mySwiper">Slide 2</SwiperSlide>
-                <SwiperSlide className="mySwiper">Slide 3</SwiperSlide>
-                <SwiperSlide className="mySwiper">Slide 4</SwiperSlide>
+                <SwiperSlide className="mySwiper d-flex">
+                  <CustomItems />
+                </SwiperSlide>
+                <SwiperSlide className="mySwiper d-flex">
+                  <CustomItems />
+                </SwiperSlide>
+                <SwiperSlide className="mySwiper d-flex">
+                  <CustomItems />
+                </SwiperSlide>
+                <SwiperSlide className="mySwiper d-flex">
+                  <CustomItems />
+                </SwiperSlide>
+                <SwiperSlide className="mySwiper d-flex">
+                  <CustomItems />
+                </SwiperSlide>
+                <SwiperSlide className="mySwiper d-flex">
+                  <CustomItems />
+                </SwiperSlide>
+                <SwiperSlide className="mySwiper d-flex">
+                  <CustomItems />
+                </SwiperSlide>
+
+
           </Swiper>
         
         </div>
