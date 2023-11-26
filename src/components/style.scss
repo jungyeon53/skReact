@@ -203,6 +203,55 @@ ul li{
 }
 
 // benefit
+.sectionbene {
+  height: 450px;
+}
 .benefitCard {
   margin-top: 50px;
+  
+}
+
+.benecard1 {
+  width: 300px;
+  margin-top: 50px;
+  background-color: #f7ecff;
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+}
+.benecard2 {
+  width: 300px;
+  margin-top: 50px;
+  background-color: #fff4e5;
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+}
+.benecard3 {
+  width: 300px;
+  margin-top: 50px;
+  background-color: #ffeef0;
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+}
+.benecard4 {
+  width: 300px;
+  margin-top: 50px;
+  background-color: #eaf6fe;
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: none;
 }

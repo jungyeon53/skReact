@@ -9,6 +9,8 @@ import Sale from './components/Product/Sale.jsx';
 import Items from './components/Product/Items.jsx';
 import Benefit from './components/Benefit/Benefit.jsx';
 import { Container } from 'react-bootstrap';
+import Event from './components/Event/Event.jsx';
+import Footer from './components/Footer/Footer.jsx';
 // import axios from 'axios';
 
 function App() {
@@ -26,9 +28,9 @@ function App() {
             <CardCustom />
             <Items />
             <Sale />
-
             <Benefit />
-
+            <Event />
+            <Footer />
         </div>
     );
 }
